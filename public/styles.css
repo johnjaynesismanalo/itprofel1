@@ -1,0 +1,61 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, hr {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#tw {
+    color: #ffc200;
+}
+
+h3 {
+    font-size: 17.5px;
+}
+
+a {
+    text-decoration: underline;
+    color: #0066cc;
+    margin: 0 10px;
+}
+
+div {
+    margin: 20px;
+}
+
+p {
+    font-family: Merriweather, Georgia, serif;
+}
+
+ul {
+    font-family: Merriweather, Georgia, serif;
+    list-style-type: disc;
+    margin: 20px;
+}
+
+/* Footer styles */
+hr {
+    margin-top: 20px;
+    border: 1px solid #666;
+}
+
+.footer {
+    font-family: 'Georgia', serif;
+    color: #666;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Additional styling can be added as needed to match the design */
