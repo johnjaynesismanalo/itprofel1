@@ -1,0 +1,66 @@
+/* styles.css */
+
+html {}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: right;
+}
+
+.container {
+    border: 2px solid #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sitelogo img {
+	width: 100px;
+	height: 100px;
+}
+
+.buttons {
+    text-align: right;
+}
+
+.intro {
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.intro-text {
+    flex: 1;
+}
+
+.intro-image {
+    padding: right;
+}
+
+.portfolio-boxes {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.portfolio-box {
+    flex: 1;
+    text-align: center;
+}
+
+.portfolio-item img {
+    border: 2px solid #333;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
